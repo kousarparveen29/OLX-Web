@@ -1,0 +1,115 @@
+.recent-search-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.recent-search-txt h1{
+    font-size: 1.5em;
+    color:  #003034; 
+}
+
+.recent-search-txt span a:hover{
+    border: none;
+}
+
+.footer-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f3f6f6;
+    border-bottom: 1px solid #cbd5d6;
+}
+
+.google-icon1, .apple-icon1{
+    width: 130px;
+}
+
+.footer-heading h2{
+    font-weight: bold;
+    color:  #003034;
+}
+.footer-heading h5{
+    color:  #003034;
+    font-weight: 500;
+}
+
+.footer-heading h6{
+    color:  #003034;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 10px 0px;
+}
+
+.icon-div{
+    padding: 15px 0px 15px 20px; 
+    margin-left: 20px;
+    border-left: 2px solid #cbd5d6;
+}
+
+.card img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.home_div{
+    background-color: #eaeff0;
+    border-radius: 3px;
+}
+
+.card span{
+    text-align: center;
+    padding-top: 10px;
+}
+.card h5{
+    color:  #003034;
+}
+
+.desc-para{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card{
+    border: 1px solid #cbd5d6;
+    border-radius: 3px;
+}
+
+.card p{
+    color: #5c797d;
+    font-size: 0.9em;
+} 
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-body{
+    border-left: 5px solid rgb(255, 206, 52);
+}
+
+.load-more{
+    width: 100px;
+    border: 2px solid #003034;
+    border-radius: 4px;
+    padding: 10px 5px;
+    color: #003034;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+}
+
+.load-more:hover{
+    outline: 3px solid #003034;
+    outline-offset: -5px;
+}
+
+.load-more:active{
+    background-color: #cbd5d6;
+    color: white;
+    outline: none;
+    border: 2px solid #cbd5d6;
+}
+  

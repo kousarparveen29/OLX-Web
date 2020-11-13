@@ -1,0 +1,166 @@
+.details-div{
+    border: 1px solid #cbd5d6;
+    border-radius: 3px;
+    width: 850px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+.div-1, .div-2, .div-3, .div-4, .div-4, .div-5, .div-6{
+    border-bottom: 1px solid #cbd5d6;
+    padding: 15px 0px;
+}
+
+.div-2 label, .div-2 label, .div-3 label, .div-5 label{
+    color: #003034;
+    font-size: 0.9em;
+    display: block;
+    padding: 5px 10px 5px 10px;
+}
+
+.div-2 input{
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #5c797d;
+    border-radius: 3px;
+}
+
+.div-2 textarea{
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #5c797d;
+    border-radius: 3px;
+}
+
+.span-textarea{
+    margin-left: 115px;
+}
+
+.div-3 div{
+    border: 1px solid #5c797d;
+    border-radius: 3px;
+    width: 400px;
+    padding: 5px;
+}
+
+.div-3 input{
+    border: none;
+    padding: 2px;
+}
+
+.div-3 input:focus{
+    outline: none;
+}
+.div-3 span{
+    padding: 5px;
+    border-right: 1px solid #5c797d;
+}
+
+.div-4 label{
+    border: 2px solid #cbd5d6;
+    color: #5c797d;
+    cursor: pointer;
+}
+
+.div-4 input{
+    display: none;
+}
+
+.div-4 div:focus{
+    outline: #5c797d;
+    border: 2px solid #5c797d;
+}
+
+.madatory-para{
+    color: red !important;
+}
+
+.div-5 select{
+    padding: 5px ;
+    display: block;
+    border: 1px solid #5c797d;
+    border-radius: 3px;
+    color: #5c797d;
+}
+
+.div-6 div div{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid #5c797d;
+}
+
+.div-6 img{
+    border-radius: 50px;
+    width: 85px;
+    height: 85px;
+}
+
+.div-6 label{
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.div-6 input{
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #5c797d;
+    border-radius: 3px;
+    width: 295px;
+}
+
+.userNameSpan{
+    color: #5c797d;
+    font-size: 0.8em;  
+}
+
+.mob-div input{
+    width: 391px;
+}
+
+.div-7{
+    padding: 20px 0px;
+}
+
+.div-7 button{
+    border: 1px solid  #cbd5d6;
+    color: #5c797d;
+    background-color: #cbd5d6;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.div-7 button:active{
+    background-color: #5c797d;
+    color: #003034;
+}
+
+.main-heading{
+    color: #003034;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.details-div h6{
+    color: #003034;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+.details-div p{
+    padding: 5px 10px 5px 10px;
+    color: #5c797d;
+    font-size: 0.8em;
+}
+
+.userName{
+    border: 1px solid #5c797d;
+    border-radius: 3px;
+    display: block;
+    width: 295px;
+    padding: 5px;
+}

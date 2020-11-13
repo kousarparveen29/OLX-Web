@@ -1,0 +1,68 @@
+.sell-div{
+    border: 1px solid #cbd5d6;
+    border-radius: 2px;
+    width: 850px;
+    margin: auto;
+    padding-left: 0px;
+}
+
+.sell-div h6{
+    color: #003034;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.main-heading{
+    color: #003034;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sell-items{
+    border-top: 1px solid #cbd5d6;
+    border-bottom: 1px solid #cbd5d6;
+    border-right: 1px solid #cbd5d6;
+    width: 350px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+
+.sell-items li{
+    border-bottom: 1px solid #cbd5d6;
+    font-size: 1em;
+    color: #5c797d;
+    padding: 10px;
+    list-style: none; 
+}
+.sell-items li:hover{
+    background-color: #cbd5d6;
+    cursor: pointer;
+}
+
+.sell-header{
+    background-color: #f7f9f8;
+    padding: 15px;
+}
+
+.sell-header img{
+    width: 45px;
+    margin-left: 20px;
+}
+
+.sell-footer{
+    background-color: #003034;
+    padding: 10px 30px;
+    margin-top: 20px;
+    
+}
+
+.sell-footer p{
+    color: #f7f9f8;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px 10px;
+}

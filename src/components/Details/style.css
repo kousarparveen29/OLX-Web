@@ -1,0 +1,112 @@
+.img-div{
+    border: 1px solid  #cbd5d6;
+    border-radius: 4px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div img{
+    object-fit: contain;
+    height: 330px;
+}
+
+.img-div span{
+    color: #cbd5d6;
+    font-size: 1.5em;
+}
+
+.price-div, .seller-div, .map-div{
+    border: 1px solid  #cbd5d6;
+    border-radius: 4px;
+    padding: 15px; 
+}
+
+.price-div h1, .seller-div h6, .map-div h5{
+    color: #003034;
+}
+
+.seller-div button{
+    display: block;
+    background-color: #003034;
+    border-radius: 3px;
+    border: 2px solid #003034;
+    color: white;
+    width: 100%;
+    font-size: 0.9em;
+    padding: 5px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.seller-div button:hover{
+    background-color: #cbd5d6;
+    color: #003034;
+    outline: 3px solid #003034;
+    outline-offset: -5px;
+}
+
+.price-div p{
+    color: #5c797d;
+    font-size: 0.9em;
+    padding: 5px;
+    margin: 0px;
+}
+
+.myImage{
+    width: 60px;
+    border: 1px solid #cbd5d6;
+    border-radius: 40px;
+}
+
+.seller-div p{
+    color: #003034;
+    font-weight: bold;
+    text-align: center;
+}
+
+.map{
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid #cbd5d6;
+}
+
+.images-div{
+    border: 1px solid #cbd5d6;
+}
+
+.img1-div{
+    margin: 10px 14px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.img1{
+    width: 70px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.descrp-div{
+    border-radius: 4px;
+    border: 1px solid #cbd5d6; 
+    padding: 10px;
+}
+
+.descrp-div h4{
+    color: #003034;
+    padding: 10px;
+}
+
+.descrp-div p{
+    color: #5c797d;
+    padding: 10px;
+}
+
+.map-div p{
+    color: #5c797d;
+    padding: 0px;
+    font-size: 0.8em;
+}
