@@ -14,7 +14,7 @@ class Category extends Component {
 
     renderList = () => {
         return this.props.onecategorydata.map((v,i) => {
-            return <div key={i} className="col-3 my-3">
+            return <div key={i} className="col-lg-3 col-md-6 col-xs-12 my-3">
                 <div className="card" onClick={()=>{this.props.goto_details(v.key,this.props.history)}}>
                     <span><img src={v.photos} className="card-img-top w-75" alt="..." /></span>
                     <div className="card-body">

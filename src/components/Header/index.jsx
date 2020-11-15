@@ -35,7 +35,7 @@ class Header extends Component {
 
     render() {
         return (
-            <div>
+            <>
                 <nav className="navbar navbar-expand-lg navbar-light nav-1 bg-light py-2">
                     <div>
                         <Link className="navbar-brand" to="/"><img src={logo} alt="logo" className="logo-img ml-4" /></Link>
@@ -75,7 +75,7 @@ class Header extends Component {
                     </div>
                 </nav>
 
-            </div>
+            </>
         )
     }
 
